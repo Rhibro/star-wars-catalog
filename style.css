@@ -29,7 +29,8 @@ h1 {
     text-decoration-skip-ink: none;    
     color: #FFD600;
     margin-left: 1rem;
-    max-width: 500px
+    max-width: 500px;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -62,7 +63,6 @@ h2 {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
-/* hsafalhglla */
 
 .charTitle {
     width: 100%;
@@ -82,4 +82,17 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+li {
+    background: #8E8E8E;
+    list-style-type: none;
+    color: white;
+    min-height: 30px;
+    padding-left: 1rem;
+    line-height: 30px;
+}
+li:nth-child(odd) {
+    background: #E1DEDE;
+    color: #535556;
 }
