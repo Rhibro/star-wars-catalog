@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #424242;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+header {
+    background-image: url(images/header-background.png);
+    min-height: 347px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 0;
+}
+
+h1 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 68.61px;
+    letter-spacing: 0.15em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color: #FFD600;
+    margin-left: 1rem;
+    max-width: 500px
+}
+
+h2 {
+    font-family: Ropa Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32.16px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFD600;
+}
+
+.cardDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    min-height: 500px;
+    min-width: 20rem;
+    gap: 0px;
+    border-radius: 10px 10px 0px 0px ;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+    background-color: #C4C4C4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* hsafalhglla */
+
+.charTitle {
+    width: 100%;
+    background-color: #535556;
+    border-radius: 10px 10px 0px 0px ;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailTitle {
+    width: 100%;
+    background-color: #748687;
+    border-radius: 10px 10px 0px 0px ;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
