@@ -11,6 +11,10 @@ body {
 
 header {
     background-image: url(images/header-background.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
     min-height: 347px;
     display: flex;
     align-items: center;
@@ -44,6 +48,7 @@ h2 {
     text-decoration-skip-ink: none;
     color: #FFD600;
 }
+
 
 .cardDisplay {
     display: flex;
@@ -91,8 +96,54 @@ li {
     min-height: 30px;
     padding-left: 1rem;
     line-height: 30px;
+    cursor: pointer;
 }
+
+li:hover {
+    background: rgba(68, 68, 68, 1);
+    color: white;
+}
+
 li:nth-child(odd) {
     background: #E1DEDE;
     color: #535556;
+}
+
+li:nth-child(odd):hover {
+    background: rgba(68, 68, 68, 1);
+    color: white;
+}
+
+h3 {
+    font-family: 'Roboto' sans-serif;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35.16px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 1rem;
+}
+
+p {
+    font-family: 'Roboto' sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 1rem;
+    padding: .2rem;
+}
+
+.personDetail {
+    background-color: #C4C4C4;
+}
+
+.planetDetail {
+    background-color:#8E8E8E ;
 }
